@@ -19,6 +19,7 @@ Scan_Probes.py ->This script only listens for probes around and colorises them. 
 *****Limitations of the tool******
 1.The tool cannot exit properly of you decide to kill(stop) it midway
 2. Instead of the script serching for the keyword 'handshake' it can search for only the first two EAPOL packets, hence, saving time and space. This is more of playing with the frames using Scapy
+3. Owing to the toll it takes on wifi devices, when you notice the adapters are not displayig properly or acting up, you can restart the service or the computer.
 
 
 Tool caveat-> the probes don't tell you if its a WEP/WPA
