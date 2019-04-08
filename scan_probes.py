@@ -1,6 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
-
+#This script only listens for probes around and colorises them
 from scapy.all import *
 
 # Console colors
