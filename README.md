@@ -2,11 +2,13 @@
 AP-Less hacking tool to initiate and collect EAPOL handshakes.
 
 You must have scapy 2.3.3 and above to use this script.
+* For some reason, cracking with windows hashcat works but not on linux
 *During  the check for handshake capture, It stores alot of frames, So be mindful of the space or how long you run it for.
 *The tool is dependent on Airodump-ng  and airbase-ng to capture handshake and rouge-AP respectively.
 *Feel you an make the tool better with more modules, I'll be glad to partner :)
 Link to demo https://youtu.be/b9tU3YeN_-o
 The 3 main files are;
+
 i. clientprobe.py-> Listens for x amount of beacon frames and allows you select your target one done. 
 ii. handshake.sh-> This bash script recieves input from the clientprobe.py, creates a fake AP and tricks the user to auto connect to the fake AP. This is where a lot of disk space is consumed as the frames are writen to the handshakecheck.txt file and constantly checking for the keyword 'handshake'. The longer it takes for the client/phone/laptop to try an EAPOL authentication to us, the longer it will take to get the confirmation and the more disk space will be consumed. You will notice your PC might start to slowdown. At the point, if you give up on catching the frames, hit ctrl +c twice and use top command to find the airbase and airodupm processess and kill em softly.
 iii. handshakecheck.txt -> checking for the keyword handshake during frame capture
