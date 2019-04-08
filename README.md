@@ -21,3 +21,6 @@ Scan_Probes.py ->This script only listens for probes around and colorises them. 
 2. Instead of the script serching for the keyword 'handshake' it can search for only the first two EAPOL packets, hence, saving time and space. This is more of playing with the frames using Scapy
 
 
+Tool caveat-> the probes don't tell you if its a WEP/WPA
+
+
