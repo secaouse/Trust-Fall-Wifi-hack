@@ -1,0 +1,17 @@
+1. The tool saves discovers ESSIDs and stores them like a password dictionary. EG AMANI_TIWI should be @m@n1T1w1 or @m@n!T!W!
+
+2. Ability to Geolocate discovered APs
+
+3. insert timestamp
+
+4. The tool will have a db of possible ESSID names that it has cracked previously and if there is a beacon frame for an ESSID, 
+it will check it's DB and inform you
+max
+5. The tool will be able to estimate distance to the victim(s)
+
+6. The program should create multiple APs of the discovered MAC addresses. i.e one can attacke over 3 different probing clients
+
+7. During probe session, The script should be able to tell me what brand the client device is using. ie from the mac address
+
+8. hostAPD is fater than AIRBASE-NG. FInd how to implement it
+9. include dependencies of the tool.
