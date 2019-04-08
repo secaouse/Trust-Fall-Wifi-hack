@@ -14,4 +14,5 @@ max
 7. During probe session, The script should be able to tell me what brand the client device is using. ie from the mac address
 
 8. hostAPD is fater than AIRBASE-NG. FInd how to implement it
-9. include dependencies of the tool.
+
+9. include dependencies of the tool
